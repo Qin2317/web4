@@ -1,0 +1,46 @@
+body {
+    background: #6c373f;
+    display: flex;
+    justify-content: center;
+}
+
+#egg-container {
+    width: 90vh;
+    display: grid;
+    place-items: center;
+    grid-template-areas:
+      "e1 . ."
+      ". e2 ."
+      ". . e3";
+
+}
+
+#egg1 {
+    grid-area: e1;
+  }
+  
+#egg2 {
+    grid-area: e2;
+  }
+
+#egg3 {
+    grid-area: e3;
+  }
+
+
+#egg1 {
+    width: 400px; 
+    height: 300px; 
+  }
+
+#egg2 {
+    width: 400px; 
+    height: 300px; 
+  }
+
+#egg3 {
+    width: 400px; 
+    height: 300px; 
+}
+
+  
